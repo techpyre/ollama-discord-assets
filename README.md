@@ -1,8 +1,8 @@
 # ollama-discord-assets
 
-Animated GIF badges generated with CoreGraphics / ImageIO for Ollama Discord Rich Presence (`ollama_presence.py`).
+Animated GIF badges generated with CoreGraphics, Median-Cut palette quantization, and Floyd-Steinberg dithering for Ollama Discord Rich Presence (`ollama_presence.py`).
 
-- `*-active.gif`: 512x512 rotating orbital accent rings for active LLM families
-- `ollama-idle.gif`: 512x512 subtle breathing ring when Ollama is idle
-- `apple-badge.gif`: 192x192 subtle pulse badge for Apple Silicon small icon
-- `generate_gifs.swift`: generator script used to build the animated assets
+- `*-active.gif`: 384x384 Dark Liquid Glass squircle cards with rotating Aurora neon border glow and specular sweep
+- `ollama-idle.gif`: 384x384 calm breathing standby card
+- `apple-badge.gif`: 192x192 Apple Silicon shimmer small badge
+- `generate_gifs.swift`: standalone Swift generator script
